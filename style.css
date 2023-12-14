@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: rgb(20, 19, 19);
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: black;
+    padding: 0 1rem;
+    display: flex;
+    color: white;
+    font-size: small;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li {
+    cursor: pointer;
+    padding: 0 .5rem;
+}
+
+nav ul li:hover {
+    color: red;
+}
+
+nav .logo {
+    width: 4rem;
+}
+
+main {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: .1rem solid white;
+    height: 61vh;
+    overflow: scroll;
+    transition: all .2s ease-in-out;
+    overflow: scroll;
+}
+
+main .listbox {
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    margin: .5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.listbox h2 {
+    margin: .5rem 0;
+}
+
+.songbox {
+    width: 70vw;
+    display: grid;
+    align-items: center;
+    font-size: smaller;
+    background-color: rgba(0, 0, 0, .5);
+    margin: .2rem 0;
+    padding: 0.15rem;
+    border-radius: 1rem;
+    transition: .3s ease-in-out;
+    grid-template-columns: 1fr 10fr 1fr;
+    cursor: pointer;
+}
+
+color-red {
+    color: red;
+}
+
+.songbox div {
+    overflow: hidden;
+}
+
+.songbox img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    margin: .15rem;
+    padding: .12rem;
+}
+
+.songbox .gif {
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+
+.songbox .playiGif {
+    opacity: 1 !important;
+}
+
+.player {
+    background-color: rgba(0, 0, 0, .5);
+    width: 90vw;
+    height: 25vh;
+    padding: 1rem;
+    border: 1px solid rgb(36, 31, 31);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    margin: auto;
+    position: sticky;
+}
+
+.player input {
+    margin: 1rem 0;
+    width: 100%;
+    accent-color: red;
+    cursor: pointer;
+}
+
+.player .icons i {
+    font-size: x-large;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+#copy {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: x-small;
+    color: white;
+}
