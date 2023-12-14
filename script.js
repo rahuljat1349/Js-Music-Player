@@ -1,11 +1,11 @@
 // initializing the variables
 
 let songs = [
-    { name: "Cartoon Why We Lose Trapp DnB [NCS]", filepath: "songs/1.mp3", coverpath: "cover/img1.jpg" },
+    { name: "ElectroLight Symbolism Trap [NCS]"", filepath: "songs/1.mp3", coverpath: "cover/img1.jpg" },
     { name: "Different Heaven Drumstep [NCS]", filepath: "songs/2.mp3", coverpath: "cover/img2.jpeg" },
     { name: "Disfigure Blank Melodic Dubstep [NCS]", filepath: "songs/3.mp3", coverpath: "cover/img3.jpeg" },
     { name: "ElectroLight Symbolism Trap [NCS]", filepath: "songs/4.mp3", coverpath: "cover/img4.jpeg" },
-    { name: "ElectroLight Symbolism Trap [NCS]", filepath: "songs/5.mp3", coverpath: "cover/img5.jpeg" },
+    { name: "Cartoon Why We Lose Trapp DnB [NCS]", filepath: "songs/5.mp3", coverpath: "cover/img5.jpeg" },
     { name: "Julius Dreisig Zeus Trap [NCS] ", filepath: "songs/6.mp3", coverpath: "cover/img6.jpeg" },
     { name: "Lost Sky Fearless ptII Trap [NCS] ", filepath: "songs/7.mp3", coverpath: "cover/img7.jpeg" },
     { name: "Spektrem Shine Progressive House [NCS] ", filepath: "songs/8.mp3", coverpath: "cover/img8.jpeg" },
