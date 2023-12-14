@@ -1,7 +1,7 @@
 // initializing the variables
 
 let songs = [
-    { name: "ElectroLight Symbolism Trap [NCS]"", filepath: "songs/1.mp3", coverpath: "cover/img1.jpg" },
+    { name: "ElectroLight Symbolism Trap [NCS]", filepath: "songs/1.mp3", coverpath: "cover/img1.jpg" },
     { name: "Different Heaven Drumstep [NCS]", filepath: "songs/2.mp3", coverpath: "cover/img2.jpeg" },
     { name: "Disfigure Blank Melodic Dubstep [NCS]", filepath: "songs/3.mp3", coverpath: "cover/img3.jpeg" },
     { name: "ElectroLight Symbolism Trap [NCS]", filepath: "songs/4.mp3", coverpath: "cover/img4.jpeg" },
